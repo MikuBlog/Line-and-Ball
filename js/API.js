@@ -10,7 +10,7 @@
 		//初始化存放点的数组
 		var spotArray = []
 		//存放颜色的数组,随机获取颜色赋给每个小球
-		var colorArray = ["red","green","blue","pink","yello"]
+		var colorArray = ["red","green","blue","pink","yellow"]
 		//计算调用次数
 		var runTime = 0
 		//共享鼠标事件对象接口
@@ -121,7 +121,9 @@
 				height = document.body.clientHeight
 				canvas.width = cas.width = width
 				canvas.height = cas.height = height
-			}	
+			}
+			
+			//执行接口
+			letGo()
+			
 		}
-		//执行接口
-		letGo()
