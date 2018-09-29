@@ -3,7 +3,7 @@
 			//小球数量
 			Number:100,
 			//小球半径
-			Radius:30,
+			Radius:10,
 			//小球横向速度范围
 			spotSpeedX:1,
 			//小球纵向速度范围
@@ -15,7 +15,7 @@
 			//线条颜色
 			lineColor:"silver",
 			//线条粗细
-			lineWeight:5,
+			lineWeight:1,
 			//线条连接范围
 			Range:300,
 			//线条两端样式:"round"圆角,"square"方角

@@ -20,6 +20,12 @@
 		//暴露计时器引用
 		var time
 		
+		canvas.width = width
+		canvas.height = height
+		
+		cas.width = width
+		cas.height = height
+	
 		//制作线条
 		function getLine() {
 			spotArray.forEach(function(value,index) {
